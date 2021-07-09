@@ -358,7 +358,7 @@ p{
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    background-color: white;
+    color: white;
 }
 #career .career-info h1{
     font-size: 4rem;
@@ -423,7 +423,9 @@ p{
 #about .col-right p {
     margin-bottom: 20px;
 }
-#about .col-left .about-img{
+#about .col-left .about-img {
+    height: 100%;
+    width: 100%;
     position: relative;
     border: 10px solid white;
 }
@@ -465,7 +467,7 @@ p{
     transition: .3s ease box-shadow;
 }
 #contact .contact-item:hover{
-    box-shadow: 0px 0px 5px #0000002c;
+    box-shadow: 0px 0px 5px 0 #0000002c;
 }
 #contact .icon{
     width: 70px;
@@ -574,38 +576,9 @@ p{
 
     /* hero */
     #hero h1{
-        font-size: 7rem;
+        font-size: 6rem;
     }
     /* end hero */
-
-    /* music section */
-    #music .music-bottom .music-item{
-        flex-basis: 45%;
-        margin: 2.5%;
-    }
-    /* end music section */
-
-    /* career section */
-    #career .career-item{
-        flex-direction: row;
-    }
-    #career .career-item:nth-child(even) {
-        flex-direction: row-reverse;
-    }
-    #career .career-item{
-        height: 400px;
-        margin: 0;
-        width: 100%;
-        border-radius: 0;
-    }
-    #career .all-career .career-info{
-        height: 100%;
-    }
-    #career .all-career .career-info{
-        height: 100%;
-    }
-    /* end career section */
-
 
     /*about*/
     #about .about {
